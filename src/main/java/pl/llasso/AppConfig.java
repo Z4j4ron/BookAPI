@@ -10,5 +10,4 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @ComponentScan(basePackages = "pl.llasso")
 public class AppConfig implements WebMvcConfigurer {
 
-
 }
