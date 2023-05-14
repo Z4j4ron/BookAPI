@@ -70,13 +70,11 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "id=" + id +
+        return "id=" + id +
                 ", isbn='" + isbn + '\'' +
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", publisher='" + publisher + '\'' +
-                ", category='" + category + '\'' +
-                '}';
+                ", category='" + category + '\'';
     }
 }
